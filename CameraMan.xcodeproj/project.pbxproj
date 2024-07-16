@@ -11,6 +11,7 @@
 		11AC473E2C45D42B00F2F89E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AC473D2C45D42B00F2F89E /* ContentView.swift */; };
 		11AC47402C45D42C00F2F89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AC473F2C45D42C00F2F89E /* Assets.xcassets */; };
 		11AC47432C45D42C00F2F89E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AC47422C45D42C00F2F89E /* Preview Assets.xcassets */; };
+		11AC474A2C45D4D800F2F89E /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AC47492C45D4D800F2F89E /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		11AC473D2C45D42B00F2F89E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11AC473F2C45D42C00F2F89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11AC47422C45D42C00F2F89E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11AC47492C45D4D800F2F89E /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				11AC473D2C45D42B00F2F89E /* ContentView.swift */,
 				11AC473F2C45D42C00F2F89E /* Assets.xcassets */,
 				11AC47412C45D42C00F2F89E /* Preview Content */,
+				11AC47492C45D4D800F2F89E /* CameraView.swift */,
 			);
 			path = CameraMan;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AC474A2C45D4D800F2F89E /* CameraView.swift in Sources */,
 				11AC473E2C45D42B00F2F89E /* ContentView.swift in Sources */,
 				11AC473C2C45D42B00F2F89E /* CameraManApp.swift in Sources */,
 			);
@@ -275,11 +279,11 @@
 				DEVELOPMENT_TEAM = YW56M9324M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +308,11 @@
 				DEVELOPMENT_TEAM = YW56M9324M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
